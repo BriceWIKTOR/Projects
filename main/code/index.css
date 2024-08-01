@@ -117,7 +117,7 @@ article {
   filter: invert(1);
 }
 
-.aboutme-titre {
+.aboutme-title {
   background-color: #76abc4;
   border: solid #a6e2ff;
   border-bottom-left-radius: 20px;
@@ -148,4 +148,39 @@ article {
 a {
   text-decoration: none;
   color: white;
+}
+
+.page-projects {
+  display: flex;
+  flex-direction: row;
+  height: 927px;
+  column-gap: 170px;
+}
+
+.button-page-projects {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+}
+
+.projects-title {
+  background-color: #b65142;
+  border: solid #f97b54;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 50px;
+  color: #f97b54;
+  height: 200px;
+  width: 350px;
+}
+.dev-projects {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: Arial;
+  color: #f97b54;
 }
