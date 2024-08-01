@@ -184,3 +184,53 @@ h1 {
   font-family: Arial;
   color: #f97b54;
 }
+.page-artworks {
+  display: flex;
+  flex-direction: row;
+  height: 927px;
+}
+
+.button-page-artworks {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+}
+
+.artworks-title {
+  background-color: #e79341;
+  border: solid #fde781;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 50px;
+  color: #fde781;
+  height: 200px;
+  width: 350px;
+}
+
+.artworks-gallery {
+}
+
+.page-contact {
+  display: flex;
+  flex-direction: row;
+  height: 927px;
+}
+
+.button-page-contact {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact-title {
+  background-color: #000000;
+  border: solid #ffffff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 50px;
+  color: #ffffff;
+  height: 200px;
+  width: 350px;
+}
