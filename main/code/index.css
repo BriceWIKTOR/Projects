@@ -29,30 +29,7 @@ article {
   text-shadow: 0 0 0.2em black;
 }
 
-.instagram:hover {
-  filter: brightness(150%);
-}
-
-.x:hover {
-  filter: brightness(150%);
-}
-
-.facebook:hover {
-  filter: brightness(150%);
-}
-.linkedin:hover {
-  filter: brightness(150%);
-}
-
-.aboutme:hover {
-  filter: brightness(150%);
-}
-
-.artworks:hover {
-  filter: brightness(150%);
-}
-
-.projects:hover {
+.buttons:hover {
   filter: brightness(150%);
 }
 
@@ -151,8 +128,24 @@ article {
   width: 350px;
 }
 
-.bio-sheet {
-  height: 500px;
+.page-aboutme {
+  display: flex;
+  flex-direction: row;
+}
 
-  width: 500px;
+.button-page-aboutme {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+}
+.bio-sheet {
+  height: fit-content;
+}
+.bio-sheet > img {
+  height: 927px;
+}
+a {
+  text-decoration: none;
+  color: white;
 }
