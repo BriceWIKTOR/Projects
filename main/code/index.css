@@ -1,0 +1,158 @@
+body {
+  background-color: #676c70;
+  max-height: 100vh;
+  background-attachment: fixed;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+article {
+  line-height: 0;
+}
+
+.ba {
+  font-family: Arial;
+  font-size: 40px;
+  color: #a4c4d7;
+}
+
+.designer,
+.developer {
+  font-family: Impact;
+  font-size: 80px;
+  color: #676c70;
+  text-shadow: 0 0 0.2em black;
+}
+
+.instagram:hover {
+  filter: brightness(150%);
+}
+
+.x:hover {
+  filter: brightness(150%);
+}
+
+.facebook:hover {
+  filter: brightness(150%);
+}
+.linkedin:hover {
+  filter: brightness(150%);
+}
+
+.aboutme:hover {
+  filter: brightness(150%);
+}
+
+.artworks:hover {
+  filter: brightness(150%);
+}
+
+.projects:hover {
+  filter: brightness(150%);
+}
+
+.contact:hover {
+  filter: invert(1);
+}
+
+#character {
+  height: 81vh;
+  width: auto;
+  -webkit-animation: mover 1.5s infinite alternate;
+  animation: mover 1.5s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(40px);
+  }
+}
+
+.networks {
+  height: 20vh;
+  width: 350px;
+  column-gap: 10px;
+}
+
+.buttons-container {
+  height: 17.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  column-gap: 20px;
+}
+
+.buttons-container > button {
+  height: 80px;
+  width: 230px;
+}
+
+.aboutme {
+  background-color: #76abc4;
+  border: solid #a6e2ff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-size: 30px;
+  color: #a6e2ff;
+}
+
+.artworks {
+  background-color: #e79341;
+  border: solid #fce37e;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-size: 30px;
+  color: #fce37e;
+}
+
+.projects {
+  background-color: #b65142;
+  border: solid #f99577;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-size: 30px;
+  color: #f99577;
+}
+.contact {
+  background-color: black;
+  border: solid white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-size: 30px;
+  color: white;
+}
+.home:hover {
+  filter: invert(1);
+}
+
+.aboutme-titre {
+  background-color: #76abc4;
+  border: solid #a6e2ff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 50px;
+  color: #a6e2ff;
+  height: 200px;
+  width: 350px;
+}
+
+.bio-sheet {
+  height: 500px;
+
+  width: 500px;
+}
