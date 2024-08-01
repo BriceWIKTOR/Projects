@@ -188,6 +188,7 @@ h1 {
   display: flex;
   flex-direction: row;
   height: 927px;
+  column-gap: 40px;
 }
 
 .button-page-artworks {
@@ -209,8 +210,13 @@ h1 {
 }
 
 .artworks-gallery {
+  display: flex;
+  align-items: center;
 }
 
+.artworks-gallery > img {
+  height: 700px;
+}
 .page-contact {
   display: flex;
   flex-direction: row;
