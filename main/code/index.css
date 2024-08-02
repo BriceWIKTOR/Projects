@@ -220,7 +220,7 @@ h1 {
 .page-contact {
   display: flex;
   flex-direction: row;
-  height: 927px;
+  height: 98vh;
 }
 
 .button-page-contact {
@@ -239,4 +239,64 @@ h1 {
   color: #ffffff;
   height: 200px;
   width: 350px;
+}
+
+.mail-box {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.black-square {
+  background-color: #000000;
+  height: 700px;
+  width: 800px;
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-mailbox {
+  font-family: Arial;
+  font-size: 50px;
+  color: #000000;
+  margin-left: 200px;
+}
+
+.blue-mailbox {
+  margin-top: 250px;
+}
+
+input {
+  width: 500px;
+}
+
+label {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: Arial;
+}
+input,
+textarea {
+  border-radius: 10px;
+}
+input {
+  height: 40px;
+}
+
+.mail-button {
+  background-color: #34a9e9;
+  border: solid #a6e2ff;
+  border-radius: 10px;
+  font-size: 35px;
+  color: #a6e2ff;
+  padding: 5px;
+  width: 180px;
+  margin-top: 40px;
+}
+.mail-button:hover {
+  filter: brightness(150%);
 }
