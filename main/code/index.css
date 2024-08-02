@@ -61,9 +61,9 @@ article {
 }
 
 .networks {
-  height: 20vh;
-  width: 350px;
   column-gap: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .buttons-container {
@@ -275,6 +275,7 @@ input {
 }
 
 label {
+  margin-top: 20px;
   color: #ffffff;
   font-size: 20px;
   font-family: Arial;
@@ -285,6 +286,7 @@ textarea {
 }
 input {
   height: 40px;
+  margin-top: 10px;
 }
 
 .mail-button {
@@ -295,8 +297,30 @@ input {
   color: #a6e2ff;
   padding: 5px;
   width: 180px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .mail-button:hover {
   filter: brightness(150%);
+}
+
+/*responsive*/
+@media (max-width: 1500px) {
+  #character {
+    height: 400px;
+  }
+}
+
+@media (max-width: 1220px) {
+  main {
+    flex-direction: column;
+  }
+
+  .buttons-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+  }
+  .buttons-container button {
+    margin-bottom: 3%;
+  }
 }
