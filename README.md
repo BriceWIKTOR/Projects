@@ -8,4 +8,4 @@ Maquette desktop / mobile / charte graphique :
 
 [Brice_Maquette_ mobile_portrait.pdf](https://github.com/user-attachments/files/16488831/Brice_Maquette_.mobile_portrait.pdf)
 
-[Charte-graphique-portfolio.pdf](https://github.com/user-attachments/files/16488955/Charte-graphique-portfolio.pdf)
+[Charte-graphique-portfolio.pdf](https://github.com/user-attachments/files/16488958/Charte-graphique-portfolio.pdf)
