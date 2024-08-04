@@ -1,4 +1,4 @@
-Portfolio de Brice ARKOUB.
+Portfolio Brice ARKOUB.
 
 
 Maquette desktop / mobile / charte graphique :
