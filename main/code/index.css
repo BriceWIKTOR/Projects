@@ -303,6 +303,9 @@ input {
   filter: brightness(150%);
 }
 
+.bio-text {
+  margin-top: 50%;
+}
 /*responsive-index*/
 
 @media (max-width: 1500px) {
@@ -341,8 +344,9 @@ input {
   .buttons-container button {
     margin-bottom: 6%;
   }
-}
-.buttons-container .home {
-  margin-bottom: 3%;
-  margin-top: 20%;
+
+  .buttons-container .home {
+    margin-bottom: 3%;
+    margin-top: 20%;
+  }
 }
