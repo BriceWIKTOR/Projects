@@ -303,13 +303,31 @@ input {
   filter: brightness(150%);
 }
 
-/*responsive*/
+/*responsive-index*/
+
 @media (max-width: 1500px) {
   #character {
     height: 400px;
   }
 }
+@media (max-width: 400px) {
+  #character {
+    height: 300px;
+  }
+}
 
+@media (max-width: 400px) {
+  #character {
+    height: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .designer,
+  .developer {
+    font-size: 60px;
+  }
+}
 @media (max-width: 1220px) {
   main {
     flex-direction: column;
@@ -321,6 +339,10 @@ input {
     margin-top: 15%;
   }
   .buttons-container button {
-    margin-bottom: 3%;
+    margin-bottom: 6%;
   }
+}
+.buttons-container .home {
+  margin-bottom: 3%;
+  margin-top: 20%;
 }
