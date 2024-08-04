@@ -15,11 +15,15 @@ article {
   line-height: 0;
 }
 
+/*my name*/
+
 .ba {
   font-family: Arial;
   font-size: 40px;
   color: #a4c4d7;
 }
+
+/*my job*/
 
 .designer,
 .developer {
@@ -28,6 +32,7 @@ article {
   color: #676c70;
   text-shadow: 0 0 0.2em black;
 }
+/*hovering button filter for navbar and networks*/
 
 .buttons:hover {
   filter: brightness(150%);
@@ -36,6 +41,8 @@ article {
 .contact:hover {
   filter: invert(1);
 }
+
+/*animation of the middle image*/
 
 #character {
   height: 81vh;
@@ -60,6 +67,8 @@ article {
   }
 }
 
+/*homepage buttons size and position*/
+
 .networks {
   column-gap: 10px;
   display: flex;
@@ -78,6 +87,8 @@ article {
   height: 80px;
   width: 230px;
 }
+
+/*navbar buttons style*/
 
 .aboutme {
   background-color: #76abc4;
@@ -117,6 +128,8 @@ article {
   filter: invert(1);
 }
 
+/*about me page*/
+
 .aboutme-title {
   background-color: #76abc4;
   border: solid #a6e2ff;
@@ -149,6 +162,8 @@ a {
   text-decoration: none;
   color: white;
 }
+
+/*porject page*/
 
 .page-projects {
   display: flex;
@@ -184,6 +199,9 @@ h1 {
   font-family: Arial;
   color: #f97b54;
 }
+
+/*artworks page*/
+
 .page-artworks {
   display: flex;
   flex-direction: row;
@@ -259,6 +277,9 @@ h1 {
 .h {
   grid-area: h;
 }
+
+/*contact page*/
+
 .page-contact {
   display: flex;
   flex-direction: row;
@@ -363,12 +384,6 @@ input {
 }
 
 @media (max-width: 400px) {
-  #character {
-    height: 300px;
-  }
-}
-
-@media (max-width: 400px) {
   .designer,
   .developer {
     font-size: 60px;
@@ -391,5 +406,137 @@ input {
   .buttons-container .home {
     margin-bottom: 3%;
     margin-top: 20%;
+  }
+}
+
+/*responsive-about_me*/
+
+@media (max-width: 450px) {
+  .page-aboutme {
+    flex-direction: column;
+  }
+  .bio-sheet {
+    margin-top: 50%;
+  }
+
+  .page-aboutme .home {
+    margin-top: 40%;
+    margin-left: 120%;
+    width: 500px;
+  }
+
+  .button-page-aboutme .aboutme-title {
+    width: 1300px;
+    height: 700px;
+    font-size: 160px;
+  }
+}
+
+/*responsive-artworks*/
+
+@media (max-width: 450px) {
+  .page-artworks {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page-artworks .home {
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+  }
+}
+@media (max-width: 450px) {
+  .container-artworks-gallery {
+    display: grid;
+
+    grid-template-areas:
+      "a  "
+      " b"
+      "c"
+      "d"
+      "e"
+      "f"
+      "g"
+      "h";
+    margin-left: 20%;
+  }
+  .a {
+    grid-area: a;
+  }
+
+  .b {
+    grid-area: b;
+  }
+
+  .c {
+    grid-area: c;
+  }
+
+  .d {
+    grid-area: d;
+  }
+
+  .e {
+    grid-area: e;
+  }
+
+  .f {
+    grid-area: f;
+  }
+  .g {
+    grid-area: g;
+  }
+  .h {
+    grid-area: h;
+  }
+}
+
+/*responsive-projects*/
+@media (max-width: 450px) {
+  .page-projects {
+    display: grid;
+
+    grid-template-areas:
+      "a"
+      "b";
+  }
+
+  .button-page-projects {
+    grid-area: a;
+  }
+  .dev-projects {
+    grid-area: b;
+  }
+
+  .button-page-projects .projects-title {
+    width: auto;
+    height: 320px;
+  }
+}
+
+/*responsive-projects*/
+
+@media (max-width: 450px) {
+  .page-contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page-contact .contact-title {
+    width: 650px;
+    height: 320px;
+  }
+
+  .page-contact .home {
+    margin-top: 30%;
+    margin-left: 95%;
+  }
+
+  .mail-box .title-mailbox {
+    margin-left: 120%;
+  }
+  .black-square {
+    margin-left: 100%;
   }
 }
